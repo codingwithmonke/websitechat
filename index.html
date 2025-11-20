@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags - CUSTOMIZE THESE -->
+    <title>Monkeys Arcade Chat</title>
+    <meta name="description" content="Connect with friends and teams in real-time with ChatApp. Create rooms, send direct messages, share images, and more.">
+    <meta name="keywords" content="chat, messaging, real-time chat, group chat, direct messaging">
+    <meta name="author" content="Your Name Here">
+    
+    <!-- Open Graph Meta Tags (for social media sharing) - CUSTOMIZE THESE -->
+    <meta property="og:title" content="ChatApp - Real-Time Messaging">
+    <meta property="og:description" content="Connect with friends and teams in real-time">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://your-domain.com">
+    <meta property="og:image" content="https://your-domain.com/preview-image.png">
+    
+    <!-- Twitter Card Meta Tags - CUSTOMIZE THESE -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Monkeys Arcade - Real-Time Messaging">
+    <meta name="twitter:description" content="Connect with friends and teams in real-time">
+    <meta name="twitter:image" content="https://your-domain.com/preview-image.png">
+    
+    <!-- Favicon - ADD YOUR OWN FAVICON -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    
+    <!-- Theme Color for Mobile Browsers -->
+    <meta name="theme-color" content="#667eea">
+    
+    <!-- Firebase SDK - Version 9.22.0 (Latest compatible version) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/9.22.0/firebase-app-compat.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/9.22.0/firebase-firestore-compat.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/9.22.0/firebase-storage-compat.min.js"></script>
+    
+    <!-- Your Custom Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Main App Container - JavaScript will populate this -->
+    <div id="app">
+        <!-- Loading Screen (optional - shows while JS loads) -->
+        <div style="display: flex; align-items: center; justify-content: center; height: 100vh; background: #1a1a2e; color: white; font-family: sans-serif;">
+            <div style="text-align: center;">
+                <h1 style="font-size: 2rem; margin-bottom: 1rem;">Monkeys Chat</h1>
+                <p>Loading...</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Firebase Configuration -->
+    <script src="firebase-config.js"></script>
+    
+    <!-- Main Application Logic -->
+    <script src="app.js"></script>
+    
+    <!-- Optional: Analytics or Other Scripts -->
+    <!-- <script src="analytics.js"></script> -->
+</body>
+</html>
